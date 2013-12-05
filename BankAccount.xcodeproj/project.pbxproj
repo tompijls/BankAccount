@@ -10,6 +10,7 @@
 		A5F5E49C183173830075E186 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F5E49B183173830075E186 /* Foundation.framework */; };
 		A5F5E49F183173830075E186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F5E49E183173830075E186 /* main.m */; };
 		A5F5E4A3183173830075E186 /* BankAccount.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5F5E4A2183173830075E186 /* BankAccount.1 */; };
+		A5F5E4AB1831741F0075E186 /* BankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F5E4AA1831741F0075E186 /* BankAccount.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		A5F5E49E183173830075E186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5F5E4A1183173830075E186 /* BankAccount-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BankAccount-Prefix.pch"; sourceTree = "<group>"; };
 		A5F5E4A2183173830075E186 /* BankAccount.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BankAccount.1; sourceTree = "<group>"; };
+		A5F5E4A91831741F0075E186 /* BankAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankAccount.h; sourceTree = "<group>"; };
+		A5F5E4AA1831741F0075E186 /* BankAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankAccount.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,8 @@
 		A5F5E48F183173830075E186 = {
 			isa = PBXGroup;
 			children = (
+				A5F5E4A91831741F0075E186 /* BankAccount.h */,
+				A5F5E4AA1831741F0075E186 /* BankAccount.m */,
 				A5F5E49D183173830075E186 /* BankAccount */,
 				A5F5E49A183173830075E186 /* Frameworks */,
 				A5F5E499183173830075E186 /* Products */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5F5E49F183173830075E186 /* main.m in Sources */,
+				A5F5E4AB1831741F0075E186 /* BankAccount.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
