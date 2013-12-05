@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+// hoe werkt dit
 @interface BankAccount : NSObject{
     double accountBalance;
     long accountNumber;
